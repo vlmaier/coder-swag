@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Coder Swag</string>
-    <string name="background_image">background image</string>
+    <string name="background_image">Background image</string>
     <string name="categories">Categories</string>
+    <string name="products">Products</string>
+    <string name="product_image">Product image</string>
 </resources>

@@ -5,29 +5,30 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".controller.MainActivity">
+        android:background="@android:color/white"
+        tools:context=".controller.ProductsActivity">
 
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/categories"
+            android:text="@string/products"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="16dp"
             android:layout_marginStart="16dp"
-            android:id="@+id/categoriesTextView"
+            android:id="@+id/productsTextView"
             android:textSize="18sp"/>
 
     <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/categoryListView"
+            android:id="@+id/productListView"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginTop="16dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/categoriesTextView"
-            tools:listitem="@layout/category_list_item"
+            app:layout_constraintTop_toBottomOf="@+id/productsTextView"
+            tools:listitem="@layout/support_simple_spinner_dropdown_item"
             android:divider="@null"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

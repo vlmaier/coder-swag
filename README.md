@@ -6,7 +6,7 @@ The app itself is an online shop catalog mockup application. During the course a
 ## Layout Showcase
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/18353152/209399384-d81b4cf3-597c-4196-9719-b7cc820388f6.png" width="300"/>
-  <img src="https://user-images.githubusercontent.com/18353152/209399390-ef6c5022-53a7-420e-92be-481821c61c46.png" width="300"/>
-  <img src="https://user-images.githubusercontent.com/18353152/209399396-95c4c969-5bcf-4ddd-9635-d66b90022e22.png" width="300"/>
+  <img src="https://user-images.githubusercontent.com/18353152/209399384-d81b4cf3-597c-4196-9719-b7cc820388f6.png" width="250"/>
+  <img src="https://user-images.githubusercontent.com/18353152/209399390-ef6c5022-53a7-420e-92be-481821c61c46.png" width="250"/>
+  <img src="https://user-images.githubusercontent.com/18353152/209399396-95c4c969-5bcf-4ddd-9635-d66b90022e22.png" width="250"/>
 </p>

@@ -1,4 +1,6 @@
-# coder-swag
+![](https://github.com/vlmaier/coder-swag/actions/workflows/build.yml/badge.svg)
+
+# Coder Swag
 
 It's a demo app project which was created during the Udemy course [Kotlin for Android: Beginner to Advanced](https://www.udemy.com/course/devslopes-android-kotlin/).
 The app itself is an online shop catalog mockup application. During the course and the development of this application I was able to learn about `ConstraintLayout` and `ListView`.

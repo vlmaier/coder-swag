@@ -4,9 +4,9 @@ import android.content.res.Configuration
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.GridLayoutManager
-import kotlinx.android.synthetic.main.activity_products.*
 import org.vmaier.coderswag.R
 import org.vmaier.coderswag.adapters.ProductAdapter
+import org.vmaier.coderswag.databinding.ActivityProductsBinding
 import org.vmaier.coderswag.services.DataService
 import org.vmaier.coderswag.utilities.EXTRA_CATEGORY
 
@@ -14,14 +14,17 @@ class ProductsActivity : AppCompatActivity() {
 
     lateinit var adapter : ProductAdapter
 
+    private lateinit var binding: ActivityProductsBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_products)
+        binding = ActivityProductsBinding.inflate(layoutInflater)
 
         val category = intent.getStringExtra(EXTRA_CATEGORY)
 
         adapter = ProductAdapter(this, DataService.getProducts(category))
-        productListView.adapter = adapter
+        binding.productListView.adapter = adapter
 
         val orientation = resources.configuration.orientation
         val screenSize = resources.configuration.screenWidthDp
@@ -32,7 +35,7 @@ class ProductsActivity : AppCompatActivity() {
         }
 
         val layoutManager = GridLayoutManager(this, spanCount)
-        productListView.layoutManager = layoutManager
-        productListView.setHasFixedSize(true)
+        binding.productListView.layoutManager = layoutManager
+        binding.productListView.setHasFixedSize(true)
     }
 }

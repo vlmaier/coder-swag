@@ -3,9 +3,8 @@
 ![](https://github.com/vlmaier/coder-swag/actions/workflows/build.yml/badge.svg)
 ![](https://github.com/vlmaier/coder-swag/actions/workflows/codeql.yml/badge.svg)
 
-**Coder Swag** is a demo application which was created during the Udemy
-course [Kotlin for Android: Beginner to Advanced](https://www.udemy.com/course/devslopes-android-kotlin/)
-.
+**Coder Swag** is a demo application which was created during the Udemy course [Kotlin for Android: Beginner to Advanced](https://www.udemy.com/course/devslopes-android-kotlin/).
+
 **Coder Swag**  is an online shop catalog mockup application. During the course and development
 of **Coder Swag**  I was able to learn about `ConstraintLayout` and `ListView`.
 
